@@ -2,7 +2,7 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank" >
+      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
         mmPlayer 云音乐在线播放器
       </a>
       <img
@@ -167,7 +167,6 @@ export default {
   .header {
     .flex-center;
     line-height: 60px;
-    pointer-events: none;
     color: @text_color_active;
     font-size: @font_size_large;
     @media (max-width: 768px) {
