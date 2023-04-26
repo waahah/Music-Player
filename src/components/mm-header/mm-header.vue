@@ -2,7 +2,7 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://github.com/waahah/mmPlayer" target="_blank">
+      <a href="javascript:void(0)" target="_blank">
         mmPlayer 云音乐在线播放器
       </a>
       <img
