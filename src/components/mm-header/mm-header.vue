@@ -165,9 +165,9 @@ export default {
     background: @header_bg_color;
   }
   .header {
-    pointer-events:none;
     .flex-center;
     line-height: 60px;
+    pointer-events: none;
     color: @text_color_active;
     font-size: @font_size_large;
     @media (max-width: 768px) {
