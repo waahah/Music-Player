@@ -2,9 +2,9 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
+      <p >
         mmPlayer 云音乐在线播放器
-      </a>
+      </p>
       <img
         v-if="visitorBadge"
         :src="visitorBadge"
