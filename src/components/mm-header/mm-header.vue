@@ -3,7 +3,7 @@
   <header class="mm-header">
     <h1 class="header">
       <a href="https://music.waahah.xyz" target="_blank">
-        waahah 云音乐在线播放器
+        mmPlayer 在线音乐播放器
       </a>
       <img
         v-if="visitorBadge"
