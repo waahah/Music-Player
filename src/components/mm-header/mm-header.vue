@@ -2,7 +2,7 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="javascript:void(0)" target="_blank">
+      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
         mmPlayer 云音乐在线播放器
       </a>
       <img
@@ -152,6 +152,10 @@ export default {
     ...mapActions(['setUid'])
   }
 }
+</script>
+
+<script>
+  document.querySelector("h1 a").href="https://music.waahah.xyz";
 </script>
 
 <style lang="less">
