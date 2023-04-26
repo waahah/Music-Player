@@ -2,7 +2,7 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
+      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank" @click.prevent="changelink()">
         mmPlayer 云音乐在线播放器
       </a>
       <img
@@ -132,6 +132,10 @@ export default {
       this.openDialog(3)
       this._getUserPlaylist(this.uidValue)
     },
+    //修改
+    changelink() {
+      document.querySelector("h1 a").href="https://music.waahah.xyz";
+    },
     // 获取用户数据
     _getUserPlaylist(uid) {
       getUserPlaylist(uid).then(({ playlist = [] }) => {
@@ -152,10 +156,6 @@ export default {
     ...mapActions(['setUid'])
   }
 }
-</script>
-
-<script>
-  document.querySelector("h1 a").href="https://music.waahah.xyz";
 </script>
 
 <style lang="less">
