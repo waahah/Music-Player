@@ -2,8 +2,8 @@
   <!--头部-->
   <header class="mm-header">
     <h1 class="header">
-      <a href="https://github.com/maomao1996/Vue-mmPlayer" target="_blank">
-        mmPlayer 在线音乐播放器
+      <a href="https://music.waahah.xyz" target="_blank">
+        waahah 云音乐在线播放器
       </a>
       <img
         v-if="visitorBadge"
@@ -145,7 +145,7 @@ export default {
         creator.avatarUrl = toHttps(creator.avatarUrl)
         this.user = creator
         setTimeout(() => {
-          this.$mmToast(`${this.user.nickname} 欢迎使用 mmPlayer`)
+          this.$mmToast(`${this.user.nickname} 欢迎使用 云音乐`)
         }, 200)
       })
     },
