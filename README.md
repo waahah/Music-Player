@@ -6,7 +6,7 @@
 mmPlayer 虽然是响应式，但主要以 PC 端为主，移动端只做相应适配；<br />
 只做主流浏览器兼容（对 IE 说拜拜，想想以前做项目还要兼容 IE7 ，都是泪啊！！！）
 
-- [在线演示地址](https://netease-music.fe-mm.com/)
+- [在线演示地址](https://music.waahah.xyz/)
 - [React 移动端版本（高仿网易云音乐）](https://github.com/maomao1996/react-music)
 - [交流 QQ 群：529940193](http://shang.qq.com/wpa/qunwpa?idkey=f8be1b627a89108ccfda9308720d2a4d0eb3306f253c5d3e8d58452e20b91129) 本群不解答部署相关问题，如有部署问题请看[关于项目线上部署](#关于项目线上部署)
 - 本播放器由 **[茂茂](https://github.com/maomao1996) 开发**，您可以随意修改、使用、转载。但**使用或转载时请务必保留出处（控制台的注释信息）**！！！
@@ -30,10 +30,10 @@ node -v
 
 ```sh
 # 下载 mmPlayer
-git clone https://github.com/maomao1996/Vue-mmPlayer
+git clone https://github.com/waahah/mmPlayer
 
 # 进入 mmPlayer 播放器目录
-cd Vue-mmPlayer
+cd mmPlayer
 
 # 安装依赖 推荐使用 pnpm
 pnpm install
